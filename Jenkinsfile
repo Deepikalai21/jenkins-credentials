@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR-GITHUB-USERNAME/jenkins-advanced-project.git'
+                    url: 'https://github.com/Deepikalai21/jenkins-credentials.git'
             }
         }
 
